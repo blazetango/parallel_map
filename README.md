@@ -19,7 +19,8 @@ You need to decide if you want to patch Enumerable or only other classes like Ar
 ```ruby
 # Patch Enumerable and all its descendants
 ParallelMap.patch_enumerable
-# Or patch any other class/module
+
+# Or patch any other class/module directly
 ParallelMap.patch Array
 ```
  
@@ -42,9 +43,9 @@ Or install it yourself as:
 ## Usage
 
 Paraphrasing [pmap]((https://github.com/bruceadams/pmap#example)) let's
-suppose that we have a function get_quote that calls out to a stock
+suppose that we have a function `get_quote` that calls out to a stock
 quote service to get a current stock price. The response time for
-get_quote ranges averages 0.5 seconds.
+`get_quote` ranges averages 0.5 seconds.
  
 ```ruby
 # We will only patch Array for now
@@ -106,4 +107,3 @@ Bug reports and pull requests are welcome on GitHub at https://github.com/[USERN
 ## License
 
 The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
-
