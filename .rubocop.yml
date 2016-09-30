@@ -1,0 +1,27 @@
+AllCops:
+  Exclude:
+    - config.ru
+    - db/schema.rb
+    - db/migrate/*
+
+Documentation:
+  Enabled: false
+
+Encoding:
+  Enabled: false
+
+HandleExceptions:
+  Enabled: false
+
+LineLength:
+  Max: 120
+
+NumericLiterals:
+  Enabled: false
+
+Lint/RescueException:
+  Enabled: false
+
+Metrics/ModuleLength:
+  Exclude:
+    - spec/**/*
