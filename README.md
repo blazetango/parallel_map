@@ -1,4 +1,4 @@
-# [ParallelMap](https://github.com/aemadrid/parallel_map)
+# [ParallelMap](https://github.com/aemadrid/parallel_map) [![Build Status](https://travis-ci.org/aemadrid/parallel_map.svg?branch=master)](https://travis-ci.org/aemadrid/parallel_map)
 
 This Ruby gem adds a parallel map method to any Enumerable (notably including any Array). 
 
